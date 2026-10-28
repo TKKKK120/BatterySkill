@@ -1,0 +1,4 @@
+interface:
+  display_name: "CV 与 GITT 电化学数据分析"
+  short_description: "分析 CV 电容贡献与 GITT 扩散系数，核对单位、拟合质量和数据分段"
+  default_prompt: "使用 $cv-gitt-analysis 分析我的 CV 或 GITT 数据，先核对单位和分段，再输出计算结果、质量标记和可复现的方法。"

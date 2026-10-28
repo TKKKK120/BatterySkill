@@ -1,0 +1,78 @@
+{
+  "retrieved_on": "2026-10-28",
+  "tls_verification": "certificate hostname mismatch; public read-only retrieval used curl -k",
+  "sources": [
+    {
+      "url": "https://www.upub.online/k1v2.6.html",
+      "file": "k1v2.6.html",
+      "sha256": "b09da803400bc68506e401e1274317151aae1fc9217b4b30692ced3e340831c1",
+      "bytes": 10152
+    },
+    {
+      "url": "https://www.upub.online/js/PseudocV2.7.js",
+      "file": "PseudocV2.7.js",
+      "sha256": "5d3224222ca74711fe1e63a504185787058afacf9c329b62b9d756ae5a55163b",
+      "bytes": 12412
+    },
+    {
+      "url": "https://www.upub.online/gittV1.html",
+      "file": "gittV1.html",
+      "sha256": "d30d85505418df3a405d7fd242ddec8f82aafc2b031969feed78c4f09004fa7f",
+      "bytes": 10223
+    },
+    {
+      "url": "https://www.upub.online/js/gitt.js",
+      "file": "gitt.js",
+      "sha256": "255840b3aaf5f023aee29225ca2c2be6ef7d7a297f89af4a506f5b5c42cf0d72",
+      "bytes": 7639
+    }
+  ],
+  "reviewed_entrypoints": {
+    "PseudocV2.7.js": [
+      "autofit",
+      "linearRegression"
+    ],
+    "gitt.js": [
+      "gitt",
+      "time2h",
+      "Dgitt"
+    ]
+  },
+  "synthetic_source_checks": {
+    "cv_known_k1": 0.019999999999999987,
+    "cv_known_k2": 0.0010000000000000005,
+    "cv_cap_current_first_rate_mA": 0.0039999999999999975,
+    "cv_R2_mask_preserves_coefficients": true,
+    "gitt_calls": [
+      {
+        "endpoints": [
+          4.2,
+          4.19,
+          4.09,
+          4.18
+        ],
+        "logD": -9.9965
+      },
+      {
+        "endpoints": [
+          4.18,
+          4.18,
+          4.07,
+          4.16
+        ],
+        "logD": -10.0792
+      },
+      {
+        "endpoints": [
+          4.16,
+          4.16,
+          4.05,
+          4.14
+        ],
+        "logD": -10.0792
+      }
+    ],
+    "time_input_1_outputs_h": 0.0003,
+    "time_input_3600_outputs_h": 1
+  }
+}
